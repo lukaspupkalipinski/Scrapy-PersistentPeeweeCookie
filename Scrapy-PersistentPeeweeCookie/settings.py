@@ -20,7 +20,7 @@ __status__ = "Dev"
 
 DOWNLOADER_MIDDLEWARES = {
 
-    'Fbworker.middleware.CookiesMiddleware.CookiesMiddleware':701
+    'CookiesMiddleware.CookiesMiddleware':701
 }
 
 COOKIES_DEBUG=True
