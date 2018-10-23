@@ -1,9 +1,9 @@
 # Scrapy-PersistentPeeweeCookie
 
-This Project allows to to save your scrapy cookies to an Database.
+This Project allows to save your scrapy cookies to an Database.
 This is based on Peewee, so that any Database could be used.
 
-Visit LPL-mind.de for addtional informations.
+Visit LPL-mind.de for additional information.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ pip install scrapy
 
 Download Files and edit the Settings.py
 
-Change your credationals
+Change your credentials 
 ```
 MYSQL_SERVER = '192.168.178.47'
 MYSQL_USERNAME = 'user'
@@ -29,7 +29,7 @@ MYSQL_PASSWORD = 'password'
 MYSQL_DATABASE = 'databasename'
 ```
 
-Or change the Database setting to setup andifferent Database
+Or change the Database setting to setup an different Database
 
 ```
 PersistendPeeweeCookie =  MySQLDatabase(user=MYSQL_SERVER,password=MYSQL_USERNAME,host=MYSQL_PASSWORD,database=MYSQL_DATABASE)
